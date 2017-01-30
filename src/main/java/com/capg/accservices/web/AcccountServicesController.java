@@ -31,6 +31,7 @@ public class AcccountServicesController {
        
     	//Customer customer=new Customer();
     	//customer.setCustomerId(customerId);
+		System.out.println("checking for jenkins integrations");
     	return accountDao.findByCustomerId(customerId);
     }
 	
