@@ -98,6 +98,8 @@
 						</manifest>
 					</archive>
 					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
+						<dockerHost>https://localhost:2375</dockerHost>
+
 					<dockerDirectory>src/main/docker</dockerDirectory>
 					<resources>
 						<resource>
